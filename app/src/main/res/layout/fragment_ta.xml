@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.TaFragment">
+
+        <!-- Checkbox 1 -->
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Checkbox 1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true" />
+
+        <!-- EditText 1 -->
+        <EditText
+            android:id="@+id/edittext1"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/checkbox1"
+            android:layout_alignStart="@id/checkbox1"
+            android:layout_alignEnd="@id/checkbox1"
+            android:hint="Enter text for Checkbox 1" />
+
+        <!-- Checkbox 2 -->
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Checkbox 2"
+            android:layout_below="@id/edittext1"
+            android:layout_alignStart="@id/edittext1"
+            android:layout_alignEnd="@id/edittext1" />
+
+        <!-- EditText 2 -->
+        <EditText
+            android:id="@+id/edittext2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/checkbox2"
+            android:layout_alignStart="@id/checkbox2"
+            android:layout_alignEnd="@id/checkbox2"
+            android:hint="Enter text for Checkbox 2" />
+
+        <!-- Checkbox 3 -->
+        <CheckBox
+            android:id="@+id/checkbox3"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Checkbox 3"
+            android:layout_below="@id/edittext2"
+            android:layout_alignStart="@id/edittext2"
+            android:layout_alignEnd="@id/edittext2" />
+
+        <!-- EditText 3 -->
+        <EditText
+            android:id="@+id/edittext3"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/checkbox3"
+            android:layout_alignStart="@id/checkbox3"
+            android:layout_alignEnd="@id/checkbox3"
+            android:hint="Enter text for Checkbox 3" />
+
+        <!-- Checkbox 4 -->
+        <CheckBox
+            android:id="@+id/checkbox4"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Checkbox 4"
+            android:layout_below="@id/edittext3"
+            android:layout_alignStart="@id/edittext3"
+            android:layout_alignEnd="@id/edittext3" />
+
+        <!-- EditText 4 -->
+        <EditText
+            android:id="@+id/edittext4"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/checkbox4"
+            android:layout_alignStart="@id/checkbox4"
+            android:layout_alignEnd="@id/checkbox4"
+            android:hint="Enter text for Checkbox 4" />
+
+        <!-- Generate Formula Button -->
+        <Button
+            android:id="@+id/generate_button"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Generate Formula"
+            android:layout_below="@id/edittext4"
+            android:layout_alignStart="@id/edittext4"
+            android:layout_alignEnd="@id/edittext4"
+            android:layout_marginTop="16dp" />
+        <TextView
+            android:id="@+id/result_textview"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/generate_button"
+            android:layout_marginTop="16dp"
+            android:text="Result will be displayed here"
+            android:textSize="18sp" />
+
+
+</RelativeLayout>
